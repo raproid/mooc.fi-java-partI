@@ -7,8 +7,7 @@ public class FirstCharacters {
         String userName = askUserName();
         if (userName.length() > 2) {
             calculateAndPrintFirstThreeCharacters(userName);
-        } else {
-        }
+        } 
     }
 
     public static void Print(int position, String text, char character) {
